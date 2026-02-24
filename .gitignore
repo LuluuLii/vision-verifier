@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.ui-verify/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env
+.env
+.env.local
+
+# Debug
+npm-debug.log*
+pnpm-debug.log*
+
+# Test
+coverage/

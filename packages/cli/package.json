@@ -1,0 +1,24 @@
+{
+  "name": "@vision-verifier/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "ui-verify": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vision-verifier/fast-verify": "workspace:*",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.7.0"
+  }
+}
